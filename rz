@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Размножанс — племенной кликер</title>
+    <style>
+        /* ... (весь CSS из предыдущего сообщения, он там был) ... */
+    </style>
+</head>
+<body>
+<div class="game-container">
+    <div class="stats-panel">
+        <div class="stat gold">💰 <span id="goldAmount">0</span></div>
+        <div class="stat">⭐ <span id="levelLabel">Уровень</span> <span id="playerLevel">1</span></div>
+    </div>
+    <div class="character-zone" id="clickZone">
+        <div class="character-avatar" id="clickAvatar">🧔‍♂️</div>
+        <div class="person-name" id="clickName">Вождь</div>
+        <div class="click-hint">👇 Нажми, чтобы собрать дань!</div>
+    </div>
+    <div class="inventory-title">📜 ТВОЕ ПЛЕМЯ (нажми на карточку → выбор)</div>
+    <div class="people-grid" id="peopleGrid"></div>
+    <div class="action-buttons">
+        <button class="btn" id="hireBtn">👤 Нанять человека (100💰)</button>
+        <button class="btn" id="breedBtn">💞 Размножить (выбрать ♂ + ♀)</button>
+    </div>
+    <div class="shop-btns">
+        <button class="btn" id="upgradeClickBtn">✨ Улучшить клик +2💰 (250💰)</button>
+        <button class="btn" id="hireBetterBtn">🏆 Нанять эксперта (500💰) [ур.3]</button>
+    </div>
+    <footer>🔥 Размножение: соедините мужчину и женщину → новый ребёнок (сильнее родителей!)</footer>
+</div>
+<script>
+    // ... (весь JavaScript из того же сообщения, он там был) ...
+</script>
+</body>
+</html>
